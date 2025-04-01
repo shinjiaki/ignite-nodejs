@@ -10,6 +10,8 @@ export const routes = [
     method: 'GET',
     path: buildRoutePath('/users'),
     handler: (req, res) => {
+      console.log(req.query)
+
       const users = database.select('users')
 
       return res.end(JSON.stringify(users));
@@ -29,7 +31,7 @@ export const routes = [
 
       database.insert('users', user)
 
-      return res.writeHead(201).end('Criação de usuário');
+      return res.writeHead(201).end();
     }
   },
   {
