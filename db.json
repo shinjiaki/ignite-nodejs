@@ -1,9 +1,1 @@
-{
-  "users": [
-    {
-      "id": 1,
-      "name": "Diego",
-      "email": "diego@rocketseat.com"
-    }
-  ]
-}
+{"users":[{"id":"921aeaf0-854d-40da-93eb-9be92202aa2d","name":"Diego","email":"diego@rocketseat.com"}]}
